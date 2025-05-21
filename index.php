@@ -48,6 +48,24 @@ include("includes/header.php");
     </svg>
   </div>
 </section>
+<<<<<<< HEAD
+=======
+<section> 
+<div class="image-blob">
+    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <clipPath id="blobClip">
+          <path fill="#FFD6E8"
+            d="M46.3,-71.9C60.2,-63,72,-50.6,77.9,-36.1C83.9,-21.5,84,-4.7,81.4,11.5C78.8,27.7,73.5,43.4,63.6,55.4C53.6,67.3,39.1,75.5,24.2,77.9C9.2,80.4,-6.2,76.9,-21.9,73.1C-37.7,69.2,-53.7,64.8,-63.2,54.4C-72.6,44.1,-75.5,27.7,-78.5,10.9C-81.6,-5.9,-84.8,-23.1,-80.7,-38.8C-76.6,-54.6,-65.1,-69,-50.4,-77.6C-35.7,-86.2,-17.9,-89.1,-0.9,-87.7C16.1,-86.4,32.3,-80.9,46.3,-71.9Z"
+            transform="translate(100 100)" />
+        </clipPath>
+      </defs>
+      <image xlink:href="img/2.jpg" width="100%" height="100%" clip-path="url(#blobClip)" preserveAspectRatio="xMidYMid slice" />
+    </svg>
+  </div>
+</section>
+ 
+>>>>>>> e653a85c83f2513bc03015736d8453be00b837e5
 
 <!-- بخش محصولات -->
 <section id="products">
