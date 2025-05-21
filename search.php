@@ -39,7 +39,7 @@ if (!$result) {
     ?>
         <td style="width: 33%; padding: 10px; vertical-align: top; text-align: center; border: 1px solid #ccc;">
             <a href="product_detail.php?id=<?php echo $row['pro_code']; ?>">
-                <img src="/narin/narin/img/products/<?php echo rawurlencode($row['pro_image']); ?>" width="250px" height="150px" alt="<?php echo htmlspecialchars($row['pro_name']); ?>" />
+                <img src="img/products/<?php echo rawurlencode($row['pro_image']); ?>" width="250px" height="150px" alt="<?php echo htmlspecialchars($row['pro_name']); ?>" />
             </a>
             <br/>
             <h4><?php echo htmlspecialchars($row['pro_name']); ?></h4>

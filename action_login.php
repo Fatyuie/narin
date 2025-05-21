@@ -1,6 +1,6 @@
 <?php
 include("includes/header.php");
-session_start();
+
 
 if (isset($_POST['email']) && !empty($_POST['email']) &&
     isset($_POST['password']) && !empty($_POST['password'])) {
@@ -26,6 +26,7 @@ if ($row) {
     $_SESSION["FLname"] = $row['firstname'] . ' ' . $row['lastname'];
 
     if ($row['type'] == 1) {
+        session_start();
         $_SESSION["user_type"] = "admin";
         ?>
         <script type="text/javascript">
